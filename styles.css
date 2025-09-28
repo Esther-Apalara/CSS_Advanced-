@@ -329,3 +329,55 @@ line-height: 1.5;
   color: #666;
   line-height: 1.6;
 }
+/* Footer Section */
+footer {
+  background-color: #071629;
+  padding: 40px 20px;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-left img {
+  height: 30px;
+}
+
+.footer-left span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-right {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-right img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1); /* make sure icons appear white */
+  transition: 0.3s ease;
+}
+
+.footer-right img:hover {
+  transform: scale(1.1);
+}
+
+.copyright {
+  font-size: 14px;
+  color: #ccc;
+  text-align: center;
+  margin-top: 20px;
+}
