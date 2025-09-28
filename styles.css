@@ -287,3 +287,45 @@ line-height: 1.5;
 #membership button:hover {
   background: #a94de0;
 }
+
+/* FAQ Section */
+#faq {
+  background-color: #fff;
+  color: #071629;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+#faq h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 40px 0;
+}
+
+#fag-line {
+  height: 32px;
+  background-color: #071629;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.faq-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 60px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.faq-container h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #071629;
+}
+
+.faq-container p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
